@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TpSrc.MainCont">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #172030;" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton layoutX="256.0" layoutY="200.0" onAction="#createNewPlayer" prefHeight="79.0" prefWidth="289.0" style="-fx-background-color: #f48723;" text="New Player" textFill="WHITE">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="256.0" layoutY="301.0" onAction="#Play" prefHeight="79.0" prefWidth="289.0" style="-fx-background-color: #f48723;" text="Play" textFill="WHITE">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="256.0" layoutY="402.0" onAction="#Close" prefHeight="79.0" prefWidth="289.0" style="-fx-background-color: #f48723;" text="Exit" textFill="WHITE">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
